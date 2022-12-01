@@ -1,0 +1,341 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .header__lyapotas-content {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contacts__items {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        padding: 50px 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .book_items {
+        flex-direction: column;
+        max-width: 414px;
+        padding-bottom: 20px;
+    }
+
+    .book__form-inp {
+        width: 310px;
+    }
+
+    .book__forms-btn {
+        padding: 15px 85px;
+    }
+
+    .book__img-and {
+        position: static;
+    }
+
+    .book__img-pc {
+        position: absolute;
+        left: -10000px;
+    }
+
+    .header {
+        margin-bottom: 70px;
+    }
+
+    .strategy {
+        margin-bottom: 70px;
+    }
+
+    .clients {
+        margin-bottom: 70px;
+    }
+
+    .faq {
+        margin-bottom: 70px;
+    }
+
+    .pricing {
+        margin-bottom: 70px;
+    }
+
+    .branches {
+        margin-bottom: 70px;
+    }
+
+    .book {
+        overflow: hidden;
+        padding-bottom: 100px;
+    }
+
+    .white__bg {
+        left: -100000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__list {
+        flex-direction: column;
+        order: 3;
+        margin-top: 50px;
+        grid-column: span 2;
+    }
+
+    .nav__pc {
+        position: absolute;
+        left: -10000px;
+    }
+
+    .nav__content-left {
+        order: 1;
+    }
+
+    .nav__link {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .nav__and {
+        position: static;
+        order: 2;
+        gap: 10px;
+    }
+
+    .header__bg {
+        top: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .book {
+        padding-bottom: 75px;
+    }
+
+    .consulting {
+        padding-top: 0;
+    }
+
+    .header::after {
+        top: 400px;
+        height: 400px;
+    }
+
+    .nav__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav__icon {
+        font-size: 24px;
+        color: white;
+    }
+
+    .menu {
+        rotate: -90deg;
+    }
+
+    .strategy__items {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 310px;
+    }
+
+    .srt__block-and {
+        position: static;
+    }
+
+    .srt__block-pc {
+        position: absolute;
+        left: -10000px;
+    }
+
+    .clients__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients__item {
+        flex-direction: column;
+        max-width: 310px;
+        justify-content: center;
+    }
+
+    .faq__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .branches__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .branches__item-img {
+        width: 80%;
+    }
+
+
+    .branches__items-left {
+        margin-bottom: 50px;
+    }
+
+    .consulting__items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clients__item-photo {
+        width: 100%;
+    }
+
+    .consulting__item-text {
+        padding-bottom: 60px;
+    }
+
+    .consulting__item-btn {
+        margin-top: 60px;
+    }
+
+    .mail-and {
+        position: static;
+
+    }
+
+    .contacts__item-icon {
+        color: #8EC2F2;
+    }
+
+    .mail-pc {
+        position: absolute;
+        left: -100000px;
+    }
+
+    .rights__items {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .facebook {
+        color: #335BF5;
+    }
+
+    .insta {
+        color: #E61F5A;
+    }
+
+    .twitter {
+        color: #21A6DF;
+    }
+
+    .youtube {
+        position: static;
+        color: #E42F08;
+    }
+
+    .main__title {
+        max-width: 180px;
+    }
+
+    .header__intro-title {
+        max-width: 300px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    .header__intro-title {
+        font-size: 24px;
+    }
+
+    .header__intro-btn {
+        font-size: 8px;
+        padding: 15px 25px
+
+    }
+
+    .clients__item-photo {
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .main__text {
+        margin-bottom: 20px;
+    }
+
+    .pricing__item {
+        padding: 20px 18px;
+    }
+
+    .pricing__item-title {
+        margin-bottom: 20px;
+    }
+
+    .pricing__item-text {
+        margin-bottom: 20px;
+    }
+
+    .pricing__item-price {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 568px) {
+    .nav__content {
+        gap: 0;
+    }
+
+    .nav__and {
+        margin-left: 40px;
+    }
+
+    .book_items {
+        max-width: 290px;
+    }
+
+    .book_items * {
+        margin-bottom: 15px;
+    }
+
+    .book__forms-title {
+        margin-top: 15px;
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+        
+        
+    .book__forms-btn {
+        font-size: 12px;
+        margin: 0;
+        padding: 10px 25px;
+        margin-left: 10px;
+    }
+
+    .book__form-inp {
+        width: 200px;
+    }
+
+    .contacts__items {
+        padding: 15px 0;
+        gap: 30px
+    }
+
+    .rights__item-text {
+        text-align: center;
+    }
+
+    .rights__items {
+        gap: 15px;
+    }
+}
