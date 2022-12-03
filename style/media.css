@@ -87,11 +87,13 @@
         position: absolute;
         left: -10000px;
     }
-    
+
     /* kkkkk */
 
     .nav__content-left {
         order: 1;
+        display: flex;
+        justify-content: space-between;
     }
 
     .nav__link {
