@@ -99,7 +99,6 @@
 
     .nav__and {
         position: static;
-        order: 2;
         gap: 10px;
     }
 
